@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-class Suite"  thread-count="2">
+  
+    <test name="Test1">
+     
+   <classes>
+            <class name="tests.TC_Customer"/>
+        </classes>
+    </test>
+    
+       <test name="Test4">
+     
+   <classes>
+            <class name="tests.TC_Customer2"/>
+        </classes>
+    </test>
+    
+    
+    
+
+   
+    
+</suite>
